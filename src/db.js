@@ -1,7 +1,7 @@
 var offspring = {"offspring": [
   { "id": 1,
     "name": "JeffKatzy Katz",
-    "weight": "1 pallet of macbook air laptops"
+    "weight": "That's private"
   },
   { "id": 2,
     "name": "Rachel",

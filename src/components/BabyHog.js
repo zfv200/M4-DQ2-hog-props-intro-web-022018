@@ -29,7 +29,7 @@ class BabyHog extends Component {
   render() {
     return (
         <li className="hogbabies">
-          <h1>Name: {this.state.name}</h1>
+          <h1>{this.state.name}</h1>
           <h3>Weight: {this.state.weight}</h3>
           <h4>Eye Color: {this.state.eyeColor}</h4>
           <img src={Baby} style={{height: `${this.state.imgHeight}`}} alt="MasterBlasterJrJr" />
