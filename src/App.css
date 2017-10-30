@@ -1,7 +1,13 @@
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .App {
   text-align: center;
-  width: 1500px;
-  height: 1000px;
+  width: 1000px;
+  height: 800px;
 }
 
 .App-logo {
@@ -37,6 +43,6 @@
 }
 
 .hogbabies {
-  padding: 0 50px;
+  padding: 50px 50px 0 50px;
   display: inline;
 }
