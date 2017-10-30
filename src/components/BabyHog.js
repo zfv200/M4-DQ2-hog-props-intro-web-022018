@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Baby from '../public/baby-hog.png'
+import { Button, Icon } from 'semantic-ui-react'
 
 class BabyHog extends Component {
 
@@ -20,6 +21,21 @@ class BabyHog extends Component {
           <h3>Weight: {this.state.weight}</h3>
           <h4>Eye Color: {this.state.eyeColor}</h4>
           <img src={Baby} style={{height: 200}} alt="MasterBlasterJrJr" />
+
+          <Button animated value={0.5}>
+            <Button.Content visible>Increase Weight</Button.Content>
+            <Button.Content hidden>
+              <Icon name='plus' />
+            </Button.Content>
+          </Button>
+
+          <Button animated value={-0.5}>
+            <Button.Content visible>Decrease Weight</Button.Content>
+            <Button.Content hidden>
+              <Icon name='minus' />
+            </Button.Content>
+          </Button>
+
         </li>
     )
   }
