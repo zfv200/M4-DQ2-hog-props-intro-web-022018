@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Master from '../public/master-hog.png'
+import Master from '../assets/master-hog.png'
 import BabyHog from '../components/BabyHog'
 
 class MasterHog extends Component {

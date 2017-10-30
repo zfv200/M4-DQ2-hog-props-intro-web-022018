@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Baby from '../public/baby-hog.png'
+import Baby from '../assets/baby-hog.png'
 
 class BabyHog extends Component {
 
