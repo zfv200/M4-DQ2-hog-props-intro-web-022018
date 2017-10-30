@@ -18,12 +18,14 @@ class MasterHog extends Component {
 
   render() {
     return (
-      <div className="MasterHog">
+      <div>
         {/* img on click increment style (ie () => style={{'scale': '+=.1'}} )*/}
         <h2>Name: {this.state.name}</h2>
         <h3>Weight: {this.state.weight}</h3>
         <h3>Eye Color: {this.state.eyeColor}</h3>
-        <img src={Master} alt='MasterBlaster' style={{height: 400}}></img>
+        <div id="masters-domicile">
+          <img id="master-blaster" src={Master} alt='MasterBlaster' style={{height: 400}}></img>
+        </div>
         <ul className="hoglist">
           {this.makeBabyHogs()}
         </ul>
