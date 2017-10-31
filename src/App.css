@@ -16,7 +16,7 @@
 }
 
 #master-blaster {
-  animation: assblast 10s infinite ease-in-out;
+  animation: blast 10s infinite ease-in-out;
 }
 
 #masters-domicile {
@@ -52,13 +52,21 @@
 
 .hogbabies {
   align-self: flex-end;
+  align-items: center;
   padding: 50px 50px 0 50px;
   display: inline;
 }
 
+.wrap-crap {
+  margin: 0 auto;
+  display: flex;
+  width: 290px;
+}
+
 .ui.animated.button {
   width: 150px;
-  margin: 10px 0;
+  margin: 10px 2.5px;
+  display: inline;
 }
 
 @keyframes Teeter-Totter {
@@ -67,7 +75,7 @@
   100% {transform: rotateZ(10deg) translateX(-120px);}
 }
 
-@keyframes assblast {
+@keyframes blast {
   0% {transform: rotateY(0deg);}
   43% {transform: rotateY(0deg);}
   53% {transform: rotateY(180deg);}
