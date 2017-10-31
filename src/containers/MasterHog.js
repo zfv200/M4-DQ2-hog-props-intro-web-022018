@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Button, Checkbox, Form, Input, Radio, Select, TextArea } from 'semantic-ui-react'
 import Master from '../assets/master-hog.png'
 import BabyHog from '../components/BabyHog'
 
@@ -11,14 +10,15 @@ class MasterHog extends Component {
       eyeColor: "blue",
       name: "Master Blaster",
       weight: '2.54 Tons',
-      offspring: []
+      offspring: props.offspring
     }
+
   }
 
 
   changeEyeColor(event) {
     event.preventDefault()
-
+    this.setState({eyeColor: event.target.value})
   }
 
 
@@ -55,7 +55,7 @@ class MasterHog extends Component {
           <img id="master-blaster" src={Master} alt='MasterBlaster' style={{height: 400}}></img>
         </div>
         <ul className="hoglist">
-          {/* render hog babies */}
+          {this.state.offspring.map(el => <BabyHog {...el} eyeColor={this.state.eyeColor} />)}
         </ul>
 
       </div>
