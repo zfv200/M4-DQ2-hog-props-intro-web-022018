@@ -20,10 +20,6 @@ class BabyHog extends Component {
     }
   }
 
-  selectImg() {
-
-  }
-
   changeWeight(event) {
     event.preventDefault()
 
