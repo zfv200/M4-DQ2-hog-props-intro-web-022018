@@ -55,7 +55,7 @@ class MasterHog extends Component {
           <img id="master-blaster" src={Master} alt='MasterBlaster' style={{height: 400}}></img>
         </div>
         <ul className="hoglist">
-          {this.state.offspring.map(el => <BabyHog {...el} eyeColor={this.state.eyeColor} />)}
+          {this.state.offspring.map(el => <BabyHog changeEyes={this.changeEyeColor} {...el} eyeColor={this.state.eyeColor} />)}
         </ul>
 
       </div>

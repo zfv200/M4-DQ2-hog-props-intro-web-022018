@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <MasterHog {...this.state} />
+        <MasterHog offspring={this.state.offspring} />
       </div>
     )
   }

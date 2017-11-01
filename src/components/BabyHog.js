@@ -17,6 +17,7 @@ class BabyHog extends Component {
     this.state = {
       imgHeight: 200
     }
+    
   }
 
 
