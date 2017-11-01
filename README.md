@@ -1,4 +1,4 @@
-# hog-props-intro
+# Hog-Props-Intro
 
 In this program, we have three components the App, the Master Hog, and the Baby Hog. Your job is to render on the page the Master Hog with its name, weight, and eye color as well as it's Baby Hog components with their name weights and eye colors. 
 
