@@ -1,10 +1,10 @@
 # Hog-Props-Intro
 
-In this program, we have three components the App, the Master Hog, and the Baby Hog. Your job is to render on the page the Master Hog with its name, weight, and eye color as well as it's Baby Hog components with their name weights and eye colors. 
+In this program, we have three components the App, the MasterHog, and the BabyHog. Your job is display the MasterHog with its name, weight, and eye color as well as its Baby Hog components with their name, weight, and eye color. 
 
-The master Hog passes down it's genes to the baby hogs including it's beautious eye color. Each baby hog receives it's eyecolor from the master Hog however the baby hogs should be able to change their weight independently without re-rendering the other components. Additionally, you should be able to change the eye color of the master Hog which will then trigger it's child components to rerender. 
+The MasterHog passes down it's beautious eye color gene as a prop to the BabyHog component. Although each BabyHog's eye color comes from the MasterHog, the BabyHogs should be able to change their weight independently. Additionally, the MasterHog should be able to change its eye color, which should then change the eye color of the BabyHogs. 
 
-Hint: the App already imports the data for the BabyHog component. You need simply to pass it down as props to the next component in your program until you can use it to make baby hogs.
+Hint: the App component already imports the data for the BabyHog components. You need simply to pass it down as props to the next component in your program until you can use it to make BabyHogs.
 
 ## Directions: 
   * Pass the information for the Offspring down as props to the next component to use to create BabyHog components
