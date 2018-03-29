@@ -5,11 +5,11 @@ var offspring = {"offspring": [
   },
   { "id": 2,
     "name": "Rachel",
-    "weight": "3 "
+    "weight": "3"
   },
   { "id": 3,
     "name": "Maxwell",
-    "weight": "A Few++"
+    "weight": "A Few"
   },
 ]}
 
