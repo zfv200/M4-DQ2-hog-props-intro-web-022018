@@ -18,11 +18,14 @@ class MasterHog extends Component {
 
   changeEyeColor(event) {
     event.preventDefault()
-
+    this.setState({
+      eyeColor: event.target.value
+    })
   }
 
 
   render() {
+    console.log(this.state.eyeColor)
     return (
       <div>
 
@@ -55,7 +58,7 @@ class MasterHog extends Component {
           <img id="master-blaster" src={Master} alt='MasterBlaster' style={{height: 400}}></img>
         </div>
         <ul className="hoglist">
-          {/* render hog babies */}
+          <BabyHog eyeColor={this.state.eyeColor}/>
         </ul>
 
       </div>
